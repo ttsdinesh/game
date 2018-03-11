@@ -5,6 +5,7 @@
 3) When swept through an enemy (element of a different clan) U loses health.
 4) When swept through character of same clan (element from the same clan), U gains health.
 5) Game ends (stage completes) when swept through all the characters or when the health becomes less than or equal to 0.
+6) First letter of each clan is used to represent each character in the game arena.
 
 ## Getting Started
 
