@@ -19,7 +19,7 @@ public class GameControllerFactory implements AbstractGameController {
 		System.out.println("");
 	}
 
-	private static GameControllerFactory gameControllerInstance = null;
+	private volatile static GameControllerFactory gameControllerInstance = null;
 
 	public static GameControllerFactory getInstance() {
 		if (gameControllerInstance == null)

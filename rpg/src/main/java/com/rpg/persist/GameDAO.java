@@ -28,7 +28,7 @@ public class GameDAO implements AbstractDAO {
 	private GameDAO() {
 	}
 
-	private static GameDAO gameDaoInstance = null;
+	private volatile static GameDAO gameDaoInstance = null;
 
 	public static GameDAO getInstance() {
 		if (gameDaoInstance == null)

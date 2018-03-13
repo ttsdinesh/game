@@ -20,7 +20,7 @@ public class ResourceManager {
 	private ResourceManager() {
 	}
 
-	private static ResourceManager resourceManagerInstance = null;
+	private volatile static ResourceManager resourceManagerInstance = null;
 
 	public static ResourceManager getInstance() {
 		if (resourceManagerInstance == null)
